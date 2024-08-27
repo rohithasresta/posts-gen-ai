@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "Social-Media-Post-Generator"
+version = "1.0"
+description = "'Social-Media-Post-Generator'"
+authors = ["Sravanth"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pillow = "^8.4.0"
+openai = "^0.27.8"
+transformers == "^4.30.1"
+torch == "^2.0.1"
+diffusers == "^0.17.0"
+accelerate == "^0.20.3"
+openai == "^0.27.8"
+gradio == "^2.3.6"
+numpy == "^1.21.4"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
